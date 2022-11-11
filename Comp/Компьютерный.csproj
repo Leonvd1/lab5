@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1ECB226A-BF2A-41E6-855D-06C0509D66A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Компьютерный</RootNamespace>
+    <AssemblyName>Компьютерный</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="добавить должность.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавить должность.Designer.cs">
+      <DependentUpon>добавить должность.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавить клиента.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавить клиента.Designer.cs">
+      <DependentUpon>добавить клиента.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавить оплату.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавить оплату.Designer.cs">
+      <DependentUpon>добавить оплату.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавить состояние.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавить состояние.Designer.cs">
+      <DependentUpon>добавить состояние.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавить сотрудников.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавить сотрудников.Designer.cs">
+      <DependentUpon>добавить сотрудников.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавить типкомп.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавить типкомп.Designer.cs">
+      <DependentUpon>добавить типкомп.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавить услугу.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавить услугу.Designer.cs">
+      <DependentUpon>добавить услугу.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавление брон.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавление брон.Designer.cs">
+      <DependentUpon>добавление брон.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавление данных1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавление данных1.Designer.cs">
+      <DependentUpon>добавление данных1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавление данных2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавление данных2.Designer.cs">
+      <DependentUpon>добавление данных2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="добавление комп.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="добавление комп.Designer.cs">
+      <DependentUpon>добавление комп.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ИСDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ИСDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="клиенты и сотрудники.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="клиенты и сотрудники.Designer.cs">
+      <DependentUpon>клиенты и сотрудники.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск бронирование.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск бронирование.Designer.cs">
+      <DependentUpon>поиск бронирование.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск видкомп.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск видкомп.Designer.cs">
+      <DependentUpon>поиск видкомп.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск данные услуг1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск данные услуг1.Designer.cs">
+      <DependentUpon>поиск данные услуг1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск данных2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск данных2.Designer.cs">
+      <DependentUpon>поиск данных2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск должность.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск должность.Designer.cs">
+      <DependentUpon>поиск должность.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск клиента.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск клиента.Designer.cs">
+      <DependentUpon>поиск клиента.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск комп.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск комп.Designer.cs">
+      <DependentUpon>поиск комп.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск оплаты.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск оплаты.Designer.cs">
+      <DependentUpon>поиск оплаты.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск состояния.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск состояния.Designer.cs">
+      <DependentUpon>поиск состояния.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск сотрудника.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск сотрудника.Designer.cs">
+      <DependentUpon>поиск сотрудника.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск услуги.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск услуги.Designer.cs">
+      <DependentUpon>поиск услуги.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="добавить должность.resx">
+      <DependentUpon>добавить должность.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавить клиента.resx">
+      <DependentUpon>добавить клиента.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавить оплату.resx">
+      <DependentUpon>добавить оплату.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавить состояние.resx">
+      <DependentUpon>добавить состояние.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавить сотрудников.resx">
+      <DependentUpon>добавить сотрудников.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавить типкомп.resx">
+      <DependentUpon>добавить типкомп.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавить услугу.resx">
+      <DependentUpon>добавить услугу.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавление брон.resx">
+      <DependentUpon>добавление брон.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавление данных1.resx">
+      <DependentUpon>добавление данных1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавление данных2.resx">
+      <DependentUpon>добавление данных2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="добавление комп.resx">
+      <DependentUpon>добавление комп.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="клиенты и сотрудники.resx">
+      <DependentUpon>клиенты и сотрудники.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск бронирование.resx">
+      <DependentUpon>поиск бронирование.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск видкомп.resx">
+      <DependentUpon>поиск видкомп.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск данные услуг1.resx">
+      <DependentUpon>поиск данные услуг1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск данных2.resx">
+      <DependentUpon>поиск данных2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск должность.resx">
+      <DependentUpon>поиск должность.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск клиента.resx">
+      <DependentUpon>поиск клиента.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск комп.resx">
+      <DependentUpon>поиск комп.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск оплаты.resx">
+      <DependentUpon>поиск оплаты.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск состояния.resx">
+      <DependentUpon>поиск состояния.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск сотрудника.resx">
+      <DependentUpon>поиск сотрудника.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск услуги.resx">
+      <DependentUpon>поиск услуги.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ИСDataSet.xsc">
+      <DependentUpon>ИСDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ИСDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ИСDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ИСDataSet.xss">
+      <DependentUpon>ИСDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ИС.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
